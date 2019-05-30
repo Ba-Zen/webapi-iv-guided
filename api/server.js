@@ -17,6 +17,7 @@ server.get('/', async (req, res) => {
     res.status(500).json({ error: 'Cannot retrieve the shoutouts' });
   }
 });
+///
 
 server.post('/', async (req, res) => {
   try {
